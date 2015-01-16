@@ -1,0 +1,117 @@
+body {
+	font-family: 'Helvetica Nueu', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	background: #333;
+	color: white;
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	overflow:hidden;
+	background-image: url('http://www.emoticonswallpapers.com/background/thumb/scene/scene-background-pattern-004.gif');
+	
+}
+.ribbon-wrapper-green {
+width: 73px;
+height: 50px;
+overflow: hidden;
+position: absolute;
+top: 0px;
+right: 5px;
+}
+
+.ribbon-green {
+  font: bold 15px Sans-Serif;
+  color: #333;
+  text-align: center;
+  position: relative;
+  padding: 7px 0;
+  color: #6a6340;
+}
+.ribbon-green img { width:100%; }
+.ribbon-green:before, .ribbon-green:after {
+  content: "";
+  position:absolute;
+  bottom: -3px;
+}
+
+.ribbon-green:before {
+  left: 0;
+}
+.ribbon-green:after {
+  right: 0;
+}
+.titlebar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: transparent;
+	font-size: 36px;
+	padding: 5px;
+	font-family: 'Lobster', cursive;
+	font-weight: 100;
+	text-align: center;
+	color: white;
+}
+
+.display {
+	position: relative;
+	margin: 70px auto;
+	overflow: hidden;
+}
+
+.image {
+	height: 50%;
+	width: 40%;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	overflow: hidden;
+}
+.small-block {
+	height: 50%;
+	width: 20%;
+	display: inline-block;
+}
+.small-block .image {
+	height: 50%;
+	width: 100%;
+}
+.block {
+	height: 50%;
+	width: 40%;
+	display: inline-block;
+}
+.block .image {
+	height: 50%;
+	width: 50%;
+}
+
+.image img {
+	width: 100%;
+	height: auto;
+	display: inline-block;
+}
+
+.likes {
+	position: absolute;
+	bottom: 10px;
+	left:10px;
+	font-size: 12px;
+	font-weight: bold;
+}
+.twitter-holder {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+.logo-holder {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+.logo-holder img{
+	float:right;
+	width:20%;
+	height:10%;
+}

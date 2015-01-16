@@ -1,0 +1,64 @@
+<head>
+  <title>Hashtales-InstaStream</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hashtales helps event organizers to increase their social presence by driving the compulsion of taking pictures among their attendees.Hashtales also lets you curate the content that goes into your ‘tale’ through our admin page.">
+    <meta name="author" content="Hashtales - Live Instagram Feeds For Events">
+    <meta name="title" content="Hashtales - Live Instagram Feeds For Events">
+    <meta name="keywords" content="live instagram feed, feeds for events, real time application, real time feeds">
+    <link rel="shortcut icon" href="demo/favicon.png">
+  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	
+        <div class="ribbon-wrapper-green"><div class="ribbon-green">
+	<img src="http://cmsathletics.org/instagram-logo-transparent.png" alt="instagram">
+	</div></div>
+	
+	<div class='titlebar'>#WeLoveCats</div>
+	<div class='display'>
+		<div class='small-block'>
+			<div class='image' id="a"></div>
+			<div class='image' id="b"></div>
+		</div>
+		<div class='image' id="c"></div>
+		<div class='block'>
+			<div class='image' id="d"></div>
+			<div class='image' id="e"></div>
+			<div class='image' id="f"></div>
+			<div class='image' id="g"></div>
+		</div>
+		<div class='block'>
+			<div class='image' id="h"></div>
+			<div class='image' id="i"></div>
+			<div class='image' id="j"></div>
+			<div class='image' id="k"></div>
+		</div>
+		<div class='image' id="l"></div>
+		<div class='small-block'>
+			<div class='image' id="m"></div>
+			<div class='image' id="n"></div>
+		</div>
+	</div>
+	
+	<div class="twitter-holder"> {{> twitter }} </div>
+	<div class="logo-holder"> {{> logo }} </div>
+</body>
+
+
+<template name="image">
+	<a href="http://instagram.com/{{user}}" target='_blank'><img src="{{url}}"/></a>
+	<div class='likes'>&hearts; {{likes}}</div>
+</template>
+
+<template name="twitter">
+	<a href="https://twitter.com/hashtales" class="twitter-follow-button" data-show-count="false">Follow @hashtales</a>
+</template>
+
+<template name="logo">
+	<a href="https://hashtales.in"><img src="http://hashtales.in/demo/logoht.png" alt="Hashtales"></a>
+</template>
